@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/xiahuanxian_jianbain"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/zw_list_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:text="TextView"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/zw_list_obligation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:text="TextView"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/zw_list_adress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:text="TextView"
+        android:textColor="#FFFDFD" />
+
+    <TextView
+        android:id="@+id/zw_list_money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:text="TextView"
+        android:textColor="#35BF3A" />
+
+</LinearLayout>

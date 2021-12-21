@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".personal.personal_3">
+
+    <LinearLayout
+        android:id="@+id/lear"
+        android:layout_centerInParent="true"
+        android:padding="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/textView36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="原密码" />
+
+        <EditText
+            android:id="@+id/oldpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="请输入原密码" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lear2"
+        android:layout_centerInParent="true"
+        android:padding="6dp"
+        android:layout_below="@+id/lear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/textView37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新密码" />
+
+        <EditText
+            android:id="@+id/newpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="请输入新密码" />
+    </LinearLayout>
+
+    <Button
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/lear2"
+        android:id="@+id/button8"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_style_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="修改" />
+</RelativeLayout>

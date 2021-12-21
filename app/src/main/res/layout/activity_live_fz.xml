@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".live.live_fz">
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/xiahuanxian_hui"
+        android:padding="6dp"
+        android:text="请选择分组" />
+
+    <TextView
+        android:textSize="18sp"
+        android:id="@+id/wo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我家" />
+
+    <TextView
+        android:textSize="18sp"
+        android:id="@+id/fm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="父母" />
+
+    <TextView
+        android:textSize="18sp"
+        android:id="@+id/fd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="房东" />
+
+    <TextView
+        android:textSize="18sp"
+        android:id="@+id/py"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="朋友" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textSize="18sp"
+            android:id="@+id/textView56"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自定义" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="" />
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:background="@drawable/btn_style_2"
+        android:id="@+id/button11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确定" />
+</LinearLayout>

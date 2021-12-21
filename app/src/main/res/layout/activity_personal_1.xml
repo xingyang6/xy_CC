@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".personal.personal_1">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:background="@drawable/xiahuanxian_hui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="头像" />
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/personal_1_img"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                app:srcCompat="@drawable/mm" />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:background="@drawable/xiahuanxian_hui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="昵称" />
+
+        <EditText
+            android:textSize="20dp"
+            android:background="@null"
+            android:gravity="right"
+            android:id="@+id/personal1_nickName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="请输入昵称" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:background="@drawable/xiahuanxian_hui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="性别" />
+
+        <RadioGroup
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <RadioButton
+                android:checked="true"
+                android:id="@+id/sex_0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="男" />
+
+            <RadioButton
+                android:id="@+id/sex_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="女" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/xiahuanxian_hui"
+        android:orientation="horizontal"
+        android:padding="6dp">
+
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/textView35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="手机号" />
+
+        <EditText
+            android:textSize="20dp"
+            android:background="@null"
+            android:gravity="right"
+            android:id="@+id/personal1_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="请输入手机号" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:padding="6dp"
+        android:background="@drawable/xiahuanxian_hui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/textview38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="证件号" />
+
+        <TextView
+            android:textSize="20dp"
+            android:gravity="right"
+            android:id="@+id/personal1_idcard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+             />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_style_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="保存" />
+</LinearLayout>

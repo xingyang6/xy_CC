@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:padding="5dp"
+            android:id="@+id/imageView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/pl" />
+
+        <EditText
+            android:id="@+id/pl_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="请输入评论" />
+
+        <Button
+            android:background="@drawable/btn_style_2"
+            android:textColor="@color/white"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/pl_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="发表" />
+    </LinearLayout>
+
+    <TextView
+
+        android:id="@+id/textView113"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:text="最新评论"
+        android:textColor="#000000" />
+
+    <TextView
+        android:padding="20dp"
+        android:gravity="center"
+        android:id="@+id/textView124"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="暂无评论" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/pl_recy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

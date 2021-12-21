@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <SearchView
+            android:id="@+id/home_sear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/biank"
+            android:queryHint="请输入感兴趣的新闻" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginBottom="10dp"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            app:cardCornerRadius="10dp">
+
+            <com.youth.banner.Banner
+                android:id="@+id/home_banenr"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/xiahuanxian_hui"
+            android:padding="6dp"
+            android:text="推荐服务" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/home_tuijain_recy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/xiahuanxian_hui"
+            android:padding="6dp"
+            android:text="热门新闻" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/home_remen_recy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#EAE5E5"
+            android:padding="10dp" />
+
+        <com.google.android.material.tabs.TabLayout
+            app:tabMode="scrollable"
+            android:id="@+id/home_tab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></com.google.android.material.tabs.TabLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:nestedScrollingEnabled="false"
+            android:id="@+id/home_news_recy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

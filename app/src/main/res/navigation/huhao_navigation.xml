@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/huhao_navigation"
+    app:startDestination="@+id/navigation_live_home">
+    <fragment
+        android:id="@+id/navigation_live_home"
+        android:name="com.example.a12_13.live.zd"
+        android:label="自动缴费"
+        tools:layout="@layout/fragment_zd" />
+
+    <fragment
+        android:id="@+id/navigation_live_huhao"
+        android:name="com.example.a12_13.live.huhao"
+        android:label="户号管理"
+        tools:layout="@layout/fragment_huhao" />
+</navigation>

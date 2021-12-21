@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".zhihui.zh_3">
+
+    <TextView
+
+        android:id="@+id/textView97"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/xiahuanxian_jianbain"
+        android:padding="6dp"
+        android:text="巡检记录"
+        android:textColor="#F2F2F2" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:padding="6dp"
+        android:id="@+id/textView98"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="8:00  精神状态正常  开始饮食" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:padding="6dp"
+        android:id="@+id/textView99"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10:00  精神状态正常 开始晒太阳" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textView100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="12:00  精神状态正常  开始饮食" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:padding="6dp"
+        android:id="@+id/textView101"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="14:00  精神状态正常  饮食正常 开始午睡" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:padding="6dp"
+        android:id="@+id/textView102"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="16:00 精神状态正常 睡觉中" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:padding="6dp"
+        android:id="@+id/textView103"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="18:00 精神状态正常 开始吃饭"  />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:padding="6dp"
+        android:id="@+id/textView104"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="20:00 精神状态正常 开始睡觉" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:padding="6dp"
+        android:id="@+id/textView105"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="22:00 睡觉中" />
+
+    <TextView
+
+        android:id="@+id/textView106"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/xiahuanxian_jianbain"
+        android:padding="6dp"
+        android:text="饮食记录"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:padding="6dp"
+        android:layout_marginLeft="10dp"
+
+        android:id="@+id/textView107"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="早餐: 两个鸡蛋 一碗稀饭" />
+
+    <TextView
+        android:padding="6dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textView108"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="中餐：一碗面条" />
+
+    <TextView
+        android:padding="6dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textView109"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="晚餐：一个馒头 一碗黑米粥" />
+
+    <TextView
+        android:id="@+id/textView110"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/xiahuanxian_jianbain"
+        android:padding="6dp"
+        android:text="服务评分"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:paddingRight="10dp"
+        android:id="@+id/textView111"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="服务人员：星漾" />
+
+    <TextView
+        android:id="@+id/textView112"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="服务打分" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:rating="5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_style_2"
+        android:textColor="@color/white"
+        android:text="打分" />
+
+</LinearLayout>

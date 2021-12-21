@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".findwork.work_init_a">
+
+    <LinearLayout
+        android:padding="6dp"
+        android:background="@drawable/xiahuanxian_hui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/work_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="职位名称" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="6dp"
+        android:background="@drawable/xiahuanxian_hui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/work_obligation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="岗位职责" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="6dp"
+        android:background="@drawable/xiahuanxian_hui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/work_adress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="公司地点" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="6dp"
+        android:background="@drawable/xiahuanxian_hui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/work_salary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="薪资" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="6dp"
+        android:background="@drawable/xiahuanxian_hui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/work_contacts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="联系人" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="6dp"
+        android:background="@drawable/xiahuanxian_hui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/work_need"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="工作年限" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="6dp"
+        android:background="@drawable/xiahuanxian_hui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/work_introductory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="公司简介" />
+    </LinearLayout>
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/button5"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_style_2"
+        android:text="投递简历" />
+</LinearLayout>

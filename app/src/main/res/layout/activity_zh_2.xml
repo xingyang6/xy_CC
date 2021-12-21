@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".zhihui.zh_2">
+
+    <TextView
+        android:padding="6dp"
+        android:background="@drawable/xiahuanxian_hui"
+        android:id="@+id/textView66"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实时居住环境" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView85"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="35"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/imageView21"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:tint="#8BC34A"
+                    app:srcCompat="@drawable/wendu" />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/textView88"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="温度" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView86"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="400ppm"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/imageView22"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    app:srcCompat="@drawable/er" />
+
+                <TextView
+                    android:id="@+id/textView90"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="二氧化碳浓度" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView87"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="25ug/m3"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/imageView23"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    app:srcCompat="@drawable/pm" />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/textView89"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PM2.5" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:padding="6dp"
+        android:background="@drawable/xiahuanxian_hui"
+        android:id="@+id/textView76"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实时健康状况" />
+
+    <LinearLayout
+        android:padding="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginLeft="100dp"
+            android:id="@+id/imageView24"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/jc_1" />
+
+        <TextView
+            android:padding="6dp"
+            android:id="@+id/textView91"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="心率：80/分钟" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginLeft="100dp"
+            android:id="@+id/imageView25"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/jc_2" />
+
+        <TextView
+            android:padding="6dp"
+
+            android:id="@+id/textView92"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="血压：60" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginLeft="100dp"
+            android:id="@+id/imageView26"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/jc_3" />
+
+        <TextView
+            android:padding="6dp"
+            android:id="@+id/textView93"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="体温：37摄氏度" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginLeft="110dp"
+            android:id="@+id/imageView27"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/jc_4" />
+
+        <TextView
+            android:padding="6dp"
+            android:layout_gravity="center"
+            android:id="@+id/textView94"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="户外活动时间：1小时" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView95"
+        android:padding="6dp"
+        android:background="@drawable/xiahuanxian_hui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="当前健康状况" />
+
+    <TextView
+        android:id="@+id/textView96"
+        android:padding="20dp"
+        android:gravity="center"
+        android:textSize="19sp"
+        android:textColor="#4CAF50"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="良好" />
+
+</LinearLayout>
